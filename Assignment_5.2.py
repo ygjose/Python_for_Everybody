@@ -5,14 +5,14 @@ while True:
     if num == "done" :
         break 
     try:
-        fnum = int(num)
+        inum = int(num)
     except:
         print('Invalid input')
         continue
-    if largest is None or fnum > largest:
-        largest = fnum
-    if smallest is None or fnum < smallest:
-        smallest = fnum
+    if largest is None or inum > largest:
+        largest = inum
+    if smallest is None or inum < smallest:
+        smallest = inum
       
 print('Maximum is', largest)
 print('Minimum is', smallest)
