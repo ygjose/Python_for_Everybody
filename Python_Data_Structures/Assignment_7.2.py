@@ -11,7 +11,5 @@ for line in fh:
         fvalues = float(values)
         total = total + fvalues
         average = total/count
-    if not line.startswith("X-DSPAM-Confidence:") : 
-        continue
    
 print ('Average spam confidence:', average)
