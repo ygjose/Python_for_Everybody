@@ -1,5 +1,5 @@
 fname = input("Enter file name: ")
-# This line is unnecessary. It seems the file "mbox-short" removed blank lines so that the loop will not have the same problem as in the [clip](https://www.coursera.org/learn/python-data/lecture/n7ihY/worked-exercise-lists)
+# This line is unnecessary. It seems that the file "mbox-short" removed blank lines so that the loop will not have the same problem as in the [clip](https://www.coursera.org/learn/python-data/lecture/n7ihY/worked-exercise-lists)
 if len(fname) < 1 : continue
 
 fh = open(fname)
