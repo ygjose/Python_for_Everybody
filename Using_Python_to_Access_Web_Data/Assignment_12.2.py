@@ -5,6 +5,7 @@
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 
+# This lines, which are from Chapter 13, are more straightforward 
 html = urllib.request.urlopen('http://py4e-data.dr-chuck.net/comments_160200.html').read()
 soup = BeautifulSoup(html, "html.parser")
 
