@@ -1,6 +1,6 @@
-# Do not write this code in an editor and read it via Termianl/Command, because it always shows you ImportError: cannot import name 'BeautifulSoup' from 'bs4'
+# Do not write this code in an editor and read it via Terminal/Commands, because it always shows you ImportError: cannot import name 'BeautifulSoup' from 'bs4'
 # My gut feeling is that Python will search all files which contain the word 'bs4' when importing BeatifulSoup (be careful with capital letters!). Since this script (you wrote in an editor) also contains 'bs4' (in line 5 in my case), you cannot import BeautifulSoup from this script apparently. Thus, it will give you error traceback.
-# My solution is that just type this code in Terminal/Commander. It will not show any error ;-)
+# My solution is that just type this code in Terminal/Commands. It will not show any error ;-)
 
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
